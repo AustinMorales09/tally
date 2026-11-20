@@ -1,0 +1,26 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+.unit/
+*.tsbuildinfo
+next-env.d.ts
+
+# local data, demo snapshot and keys (never commit)
+data/
+seed/
+*.db
+*.db-shm
+*.db-wal
+*.key
+*.pem
+
+# environment and deployment
+.env*
+!.env.example
+.vercel/
+
+# logs and OS files
+*.log
+.DS_Store
+Thumbs.db
