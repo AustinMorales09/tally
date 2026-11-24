@@ -77,7 +77,7 @@ You confirm or ignore each one; nothing is added automatically.
 
 ## Verified
 
-- **Unit tests** (`.unit/run.mjs`, 13 checks):
+- **Unit tests** (`tests/unit.mjs`, run with `npm test`, 13 checks):
   - billing-day clamping and roll-forward, and monthly/yearly conversions;
   - statement parsing: preamble, Debit/Credit columns, day-first dates, card exports with positive purchases, sign override, bad files;
   - merchant keys;
